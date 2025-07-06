@@ -1,13 +1,14 @@
 :root {
-    /* Color Palette - Purple Gradient Theme */
-    --primary-color: #6c5ce7;
-    --primary-hover: #5649d1;
-    --secondary-color: #a29bfe;
-    --accent-color: #00cec9;
-    --success-color: #00b894;
-    --error-color: #ff7675;
-    --warning-color: #fdcb6e;
-    
+    /* Palet Warna - Tema Gradien Biru */
+    --primary-color: #3498db;      /* Biru */
+    --primary-hover: #2980b9;      /* Biru lebih gelap saat hover */
+    --secondary-color: #5dade2;    /* Biru muda */
+    --accent-color: #1abc9c;       /* Biru kehijauan */
+    --success-color: #2ecc71;      /* Hijau untuk sukses */
+    --error-color: #e74c3c;        /* Merah untuk error */
+    --warning-color: #f39c12;      /* Kuning untuk peringatan */
+}
+
     /* Light Mode */
     --background-color: #f8f9fd;
     --card-background: #ffffff;
