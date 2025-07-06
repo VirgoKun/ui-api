@@ -59,6 +59,20 @@
           }
         }
       ]
-    }               
+    },
+    {
+      "name": "Search Tools",
+      "items": [
+        {
+         "name": "Dowloader"
+         "desc": "Download media (video/image) from public instagram post",
+         "path": "/downloader/instagram?url=",
+          "status": "ready",
+          "params": {
+            "Url": "Instagram post URL"
+          }
+        }
+      ]
+    }
   ]
 }
