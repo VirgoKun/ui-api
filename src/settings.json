@@ -7,32 +7,20 @@
     "status": "Online!"
   },
   "apiSettings": {
-    "creator": "RasyaGanteng", 
+    "creator": "RasyaGanteng",
     "apikey": ["rasya-api"]
   },
   "categories": [
     {
       "name": "AI (Artificial Intelligence)",
       "items": [
-        },
         {
-          "name": "HydroMind",
-          "desc": "See the list of supported AI models here: https://mind.hydrooo.web.id",
-          "path": "/ai/hydromind?text=&model=",
+          "name": "LuminAI",
+          "desc": "Talk with luminai",
+          "path": "/ai/luminai?text=",
           "status": "ready",
           "params": {
-            "text": "Teks atau perintah untuk chat AI",
-            "model": "1See the list of supported AI models here: https://mind.hydrooo.web.id"
-          }
-        },
-        {
-          "name": "Deepseek-R1",
-          "desc": "Talk with Deepseek AI R1 model",
-          "path": "/ai/deepseek?text=&websearch=",
-          "status": "ready",
-          "params": {
-            "text": "Teks atau perintah untuk chat AI",
-            "websearch": "true / false (aktifkan pencarian web jika perlu)"
+            "text": "Text for luminai to respond to"
           }
         }
       ]
