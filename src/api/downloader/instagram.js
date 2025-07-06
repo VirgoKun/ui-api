@@ -2,7 +2,7 @@ module.exports = function (app) {
     const { igDl } = require('../../lib/instagram');
     const fetch = require('node-fetch');
 
-    app.get('/downloader/instagram', async (req, res) => {
+    app.get('/lib/instagram', async (req, res) => {
         const { url } = req.query;
 
         if (!url) {
