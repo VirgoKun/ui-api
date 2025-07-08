@@ -51,7 +51,7 @@
           "name": "Otakudesu Search",
           "desc": "Cari anime dari Otakudesu",
           "path": "/anime/otakudesu/search?query=",
-          "status": "ready",
+          "status": "update",
           "params": {
             "query": "Nama anime untuk dicari"
           }
@@ -60,7 +60,7 @@
           "name": "Otakudesu Detail",
           "desc": "Detail lengkap anime dari Otakudesu",
           "path": "/anime/otakudesu/detail?url=",
-          "status": "ready",
+          "status": "error",
           "params": {
             "url": "URL halaman anime dari Otakudesu"
           }
