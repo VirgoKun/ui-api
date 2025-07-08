@@ -1,4 +1,4 @@
-const { otakuDetail } = require('../lib/otakudesu');
+const { otakuDetail } = require('../../lib/otakudesu');
 
 module.exports = function(app) {
     app.get('/anime/otakudesu/detail', async (req, res) => {
