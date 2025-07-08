@@ -51,7 +51,7 @@
           "name": "Otakudesu Search",
           "desc": "Cari anime dari Otakudesu",
           "path": "/anime/otakudesu/search?query=",
-          "status": "update",
+          "status": "ready",
           "params": {
             "query": "Nama anime untuk dicari"
           }
