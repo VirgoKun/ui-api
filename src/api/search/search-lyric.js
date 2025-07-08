@@ -1,7 +1,7 @@
 const { lyrics } = require('../../lib/lyric');
 
 module.exports = function(app) {
-    app.get('/music/lyric/search', async (req, res) => {
+    app.get('/search/lyric/search', async (req, res) => {
         const { query } = req.query;
 
         if (!query) {
