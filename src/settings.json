@@ -70,6 +70,15 @@
           "params": {
             "url": "Instagram post URL"
           }
+        },
+        {
+          "name": "Spotify Downloader",
+          "desc": "Download audio from Spotify track link",
+          "path": "/downloader/spotify?url=",
+          "status": "ready",
+          "params": {
+            "url": "Spotify track URL"
+          }
         }
       ]
     }
