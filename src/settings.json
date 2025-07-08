@@ -39,7 +39,30 @@
           "status": "ready",
           "params": {
             "text": "Teks atau perintah untuk chat AI",
-            "websearch": "false"
+            "websearch": "false (biar ga error bang)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Anime",
+      "items": [
+        {
+          "name": "Otakudesu Search",
+          "desc": "Cari anime dari Otakudesu",
+          "path": "/anime/otakudesu/search?query=",
+          "status": "ready",
+          "params": {
+            "query": "Nama anime untuk dicari"
+          }
+        },
+        {
+          "name": "Otakudesu Detail",
+          "desc": "Detail lengkap anime dari Otakudesu",
+          "path": "/anime/otakudesu/detail?url=",
+          "status": "ready",
+          "params": {
+            "url": "URL halaman anime dari Otakudesu"
           }
         }
       ]
