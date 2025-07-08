@@ -45,11 +45,10 @@
         {
           "name": "MuslimAI",
           "desc": "AI Islami dengan jawaban syar'i dan relevan",
-          "path": "/ai/muslim?text=&websearch=",
+          "path": "/ai/muslimai?text=",
           "status": "ready",
           "params": {
-            "text": "Pertanyaan atau topik islami",
-            "websearch": "false (disarankan biar hasilnya tetap syar'i)"
+            "text": "Pertanyaan atau topik islami"
           }
         }
       ]
@@ -70,7 +69,7 @@
           "name": "Otakudesu Detail",
           "desc": "Detail lengkap anime dari Otakudesu",
           "path": "/anime/otakudesu/detail?url=",
-          "status": "ready",
+          "status": "error",
           "params": {
             "url": "URL halaman anime dari Otakudesu"
           }
