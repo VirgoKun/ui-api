@@ -39,7 +39,7 @@
           "status": "ready",
           "params": {
             "text": "Teks atau perintah untuk chat AI",
-            "websearch": "false (biar ga error bang)"
+            "websearch": "true / false (aktifkan pencarian web jika perlu)"
           }
         }
       ]
@@ -98,6 +98,24 @@
           "params": {
             "q": "Search query"
           }
+        },
+        {
+          "name": "Lyric Search",
+          "desc": "Cari lagu dan dapatkan link lirik dari Lyrics.com",
+          "path": "/music/lyric/search?query=",
+          "status": "ready",
+          "params": {
+            "query": "Judul lagu atau kata kunci"
+          }
+        },
+        {
+          "name": "Lyric Detail",
+          "desc": "Ambil isi lirik lagu dari halaman Lyrics.com",
+          "path": "/music/lyric/get?url=",
+          "status": "ready",
+          "params": {
+            "url": "Link dari hasil pencarian lyric"
+          }
         }
       ]
     },
@@ -106,7 +124,7 @@
       "items": [
         {
           "name": "Instagram Downloader",
-          "desc": "Download media (video/image) from public Instagram posts",
+          "desc": "Download media (video/image) dari public Instagram posts",
           "path": "/downloader/instagram?url=",
           "status": "ready",
           "params": {
@@ -115,16 +133,16 @@
         },
         {
           "name": "Spotify Downloader",
-          "desc": "Download audio from Spotify track link",
+          "desc": "Download audio dari Spotify track link",
           "path": "/downloader/spotify?url=",
-          "status": "ready",
+          "status": "error",
           "params": {
             "url": "Spotify track URL"
           }
         },
         {
           "name": "YouTube MP3",
-          "desc": "Download audio from YouTube",
+          "desc": "Download audio dari YouTube",
           "path": "/downloader/ytmp3?url=",
           "status": "ready",
           "params": {
@@ -133,7 +151,7 @@
         },
         {
           "name": "YouTube MP4",
-          "desc": "Download video from YouTube",
+          "desc": "Download video dari YouTube",
           "path": "/downloader/ytmp4?url=",
           "status": "ready",
           "params": {
