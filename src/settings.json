@@ -75,9 +75,18 @@
           "name": "Spotify Downloader",
           "desc": "Download audio from Spotify track link",
           "path": "/downloader/spotify?url=",
-          "status": "error",
+          "status": "ready",
           "params": {
             "url": "Spotify track URL"
+          }
+        },
+        {
+          "name": "TikTok Downloader",
+          "desc": "Download TikTok video from URL",
+          "path": "/downloader/tiktok?url=",
+          "status": "ready",
+          "params": {
+            "url": "TikTok video URL"
           }
         }
       ]
