@@ -39,7 +39,7 @@
           "status": "ready",
           "params": {
             "text": "Teks atau perintah untuk chat AI",
-            "websearch": "true / false (aktifkan pencarian web jika perlu)"
+            "websearch": "false"
           }
         }
       ]
