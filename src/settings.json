@@ -22,6 +22,15 @@
           "params": {
             "text": "Text for luminai to respond to"
           }
+        },
+        {
+          "name": "PowerBrain",
+          "desc": "Chat with PowerBrain AI",
+          "path": "/ai/powerbrain?text=",
+          "status": "ready",
+          "params": {
+            "text": "Text to send to PowerBrain AI"
+          }
         }
       ]
     },
