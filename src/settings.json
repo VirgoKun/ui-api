@@ -47,6 +47,15 @@
           "params": {
             "q": "Search query"
           }
+        },
+        {
+          "name": "TikTok",
+          "desc": "Search TikTok videos by keyword",
+          "path": "/search/tiktok?q=",
+          "status": "ready",
+          "params": {
+            "q": "Search query"
+          }
         }
       ]
     },
