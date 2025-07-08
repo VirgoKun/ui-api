@@ -41,6 +41,16 @@
             "text": "Teks atau perintah untuk chat AI",
             "websearch": "false (biar ga error bang)"
           }
+        },
+        {
+          "name": "MuslimAI",
+          "desc": "AI Islami dengan jawaban syar'i dan relevan",
+          "path": "/ai/muslim?text=&websearch=",
+          "status": "ready",
+          "params": {
+            "text": "Pertanyaan atau topik islami",
+            "websearch": "false (disarankan biar hasilnya tetap syar'i)"
+          }
         }
       ]
     },
