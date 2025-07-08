@@ -75,7 +75,7 @@
           "name": "Spotify Downloader",
           "desc": "Download audio from Spotify track link",
           "path": "/downloader/spotify?url=",
-          "status": "ready",
+          "status": "error",
           "params": {
             "url": "Spotify track URL"
           }
