@@ -1,5 +1,5 @@
 module.exports = function (app) {
-    const Spotify = require('../../lib/spotify'); // path sesuai yang kamu bilang
+    const Spotify = require('../../src/lib/spotify'); // pastikan path sesuai
 
     app.get('/downloader/spotify', async (req, res) => {
         const { url } = req.query;
@@ -33,7 +33,7 @@ module.exports = function (app) {
             });
 
         } catch (err) {
-            console.error(err);
+            console.error('[SPOTIFY ERROR]', err);
             return res.status(500).json({
                 status: false,
                 error: 'Internal server error saat mengambil lagu dari Spotify.'
