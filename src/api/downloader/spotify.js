@@ -1,5 +1,5 @@
 module.exports = function (app) {
-    const Spotify = require('../../src/lib/spotify'); // path sesuai yang kamu bilang
+    const Spotify = require('../../lib/spotify'); // path sesuai yang kamu bilang
 
     app.get('/downloader/spotify', async (req, res) => {
         const { url } = req.query;
