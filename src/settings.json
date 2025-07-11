@@ -123,15 +123,6 @@
           }
         },
         {
-          "name": "Spotify Downloader",
-          "desc": "Download audio from Spotify track link",
-          "path": "/downloader/spotify?url=",
-          "status": "ready",
-          "params": {
-            "url": "Spotify track URL"
-          }
-        },
-        {
           "name": "YouTube MP3",
           "desc": "Download audio from YouTube",
           "path": "/downloader/ytmp3?url=",
