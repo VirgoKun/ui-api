@@ -1,6 +1,5 @@
-/**
- * Spotify downloader via https://spotifydown.app
- */
+const fetch = require('node-fetch'); // WAJIB import fetch biar gak undefined (kalau belum global)
+
 class Spotify {
   static baseUrl = 'https://spotifydown.app';
 
@@ -46,7 +45,6 @@ class Spotify {
 
   /**
    * Unduh lagu dari link track Spotify
-   * Tapi ini eror lek tolong fixkan sendiri
    * @param {string} link - Link lagu Spotify (track)
    * @returns {Promise<{status: boolean, result: {title: string, artists: string, thumbnail: string, url: string}, raw: object}>}
    */
@@ -81,3 +79,6 @@ class Spotify {
     };
   }
 }
+
+// Export class-nya biar bisa di-require
+module.exports = Spotify;
