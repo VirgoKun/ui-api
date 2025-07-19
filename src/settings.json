@@ -73,36 +73,6 @@
           "params": {
             "url": "URL halaman anime dari Otakudesu"
           }
-        },
-        {
-          "name": "KuroGaze Search",
-          "desc": "Cari anime dari KuroGaze",
-          "path": "/anime/all-kurogaze/search?query=",
-          "status": "ready",
-          "params": {
-            "query": "Judul anime yang ingin dicari"
-          }
-        },
-        {
-          "name": "KuroGaze Detail",
-          "desc": "Detail anime dari KuroGaze (termasuk link download)",
-          "path": "/anime/all-kurogaze/detail?url=",
-          "status": "ready",
-          "params": {
-            "url": "URL anime dari halaman KuroGaze"
-          }
-        },
-        {
-          "name": "KuroGaze Ongoing",
-          "desc": "Lihat anime ongoing di KuroGaze",
-          "path": "/anime/all-kurogaze/ongoing",
-          "status": "ready"
-        },
-        {
-          "name": "KuroGaze Schedule",
-          "desc": "Jadwal rilis anime berdasarkan hari (via KuroGaze)",
-          "path": "/anime/all-kurogaze/schedule",
-          "status": "ready"
         }
       ]
     },
