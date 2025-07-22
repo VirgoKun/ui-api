@@ -50,6 +50,17 @@
           "params": {
             "text": "Pertanyaan atau topik islami"
           }
+        },
+        {
+          "name": "Anycoder",
+          "desc": "Generate code from prompt using Anycoder",
+          "path": "/ai/anycoder?prompt=&language=&search=",
+          "status": "ready",
+          "params": {
+            "prompt": "Deskripsi aplikasi atau kode",
+            "language": "Bahasa pemrograman (cth: python, html)",
+            "search": "true / false (gunakan web search)"
+          }
         }
       ]
     },
